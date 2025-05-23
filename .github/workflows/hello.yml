@@ -1,12 +1,13 @@
 name: Hello Github Actions
 
+
 on:
    push:
-     branches: [develop]
+    branches: [develop]
 
 jobs:
    say_hello:
-     runs-on: ubuntu-latest
-     steps:
-       - name: Print Greeting
-         run: echo "Hello, from Github Action!"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greeting
+        run: echo "Hello, from Github Action!"
